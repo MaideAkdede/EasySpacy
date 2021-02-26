@@ -25,7 +25,7 @@ Leurs logos est présent partout mais ils ont également un logo "responsive" qu
 - Tous ceux/celles qui n'ont pas instagram
 - Personnes agées (qui n'ont pas à chercher midi à 14 heures pour trouver et comprendre l'information)
 
-## 2. Cahier des charges
+## 3. Cahier des charges
 
 1. Base
 
