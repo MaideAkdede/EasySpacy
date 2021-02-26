@@ -9,21 +9,21 @@
 
 Sarah JOIRET (astrophysicienne) et Léo COTTELEER (ingénieur aérospaciale) ont créé un compte à deux, sur instagram appelé "**EasySpacy**" qui à pour but de de  faire de la communication sur des aspects scientifiques liés à l'**aérospaciale** et l'**astrophysique**. Ils font de la vulgarisation scientifique.
 
-Leurs objectifs est de partager des **informations scientifiques vérifiées** de manières à ce que tout le monde puisse les comprendre.
+Leurs objectifs est de partager des **informations scientifiques vérifiées** de manière à ce que tout le monde puisse les comprendre.
 
-Leurs posts se présentent sous forme de petits **capsules** qui comprend 7 à 8 slides, où les informations sont ludiques, accrocheuses, simples à comprendre et facile et rapide à lire.
+Leurs posts se présentent sous forme de petites **capsules** qui comprend 7 à 8 slides, où les informations sont ludiques, accrocheuses, simples à comprendre et facile et rapide à lire.
 
 Dans ses posts ont retrouvent des images, photos, illustrations et vidéos.
 
 Créer un lien avec le lecteur en faisant intervenir leur avatar.
 
-Leurs logos est présent partout mais ils ont également un logo "responsive" qui reprend uniquement la fusée.
+Leur logo  est présent partout, ils ont également un logo "responsive" qui reprend uniquement la fusée et qui toujours présent dans leurs posts.
 
 ## 2. Public cible
 
 - Tout public (assez large)
 - Tous ceux/celles qui n'ont pas instagram
-- Personnes agées (qui n'ont pas à chercher midi à 14 heures pour trouver et comprendre l'information)
+- Personnes âgées (qui n'ont pas à chercher midi à 14 heures pour trouver et comprendre l'information)
 
 ## 3. Cahier des charges
 
@@ -67,12 +67,11 @@ Leurs logos est présent partout mais ils ont également un logo "responsive" qu
   - Mettre en avant leurs mails professionnels et leurs compte IG
   - Footer
       - charte graphique
-      - Information pour ralayer informations
+      - Information pour relayer informations
 
-## 3. Plan du site
+## 3. Plan du site (TODO: pas encore totalement fini)
 
 1. **Accueil**
-
   - _Section 1 - header - main_
     - Menu bar avec barre de recherche
     - mettre logo IG dans la barre de recherche?
@@ -92,7 +91,6 @@ Leurs logos est présent partout mais ils ont également un logo "responsive" qu
 
 
 2. **Page des Capsules**
-
   - 2 CTA (style TAG) pour "aérospaciale" et un autre pour "astrophysique" pour filtrer les deux avec des petites illustrations animées aux Hover
   - automatiquement trié par ordre décroissant (le dernier ajouté sera en haut)
   - je ne sais pas encore comment les afficher (sorte de gallerie ? avec un hover)
@@ -100,14 +98,12 @@ Leurs logos est présent partout mais ils ont également un logo "responsive" qu
 
 
 3. **Page d'une capsule**
-
   - Slider avec les images de leurs posts IG
   - Texte descriptifs de ce qui est marqué sur les images avec des informations complémentaires voires additionnelles
   - à la fin avant le footer ajouter une section pour rediriger vers les 3 ou 4 derniers articles (capsules)
 
 
 4. **Page News**
-
   - Trier par ordre décroissant aussi
   - mettre l'image de l'articles
   - première phrase catch de l'articles
@@ -115,28 +111,23 @@ Leurs logos est présent partout mais ils ont également un logo "responsive" qu
 
 
 5. **Page d'une seule News**
-
   - Style blog
   - Une image
   - Section de text
   - Section avec les 3 dernières news
 
-6. **Page À propos de nous**
 
-    - des avatars un peu différents et animés 
-    - courtes descriptions de qui ils sont 
+6. **Page À propos de nous**
+    - des avatars un peu différents et animés
+    - courtes descriptions de qui ils sont
     - CTA pour redirige vers la page capsule et contactez nous
 
+
 7. **Page Contactez-nous**
-
     - Formulaire de contact avec suggestion de raison de contact (message, avis, question, suggestion, thème à proposer, etc)
-    - bouton de contact directement par mail ou encore proposez de les contacter par IG 
-    
+    - bouton de contact directement par mail ou encore proposez de les contacter par IG
+
+
 8. **Page Média et Presse**
-   
-    - Texte simple style private policy 
-    - CTA contactez-nous pour plus d'info si pas clair 
-    
-
-    
-
+    - Texte simple style private policy
+    - CTA contactez-nous pour plus d'info si pas clair
