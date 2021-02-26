@@ -121,10 +121,22 @@ Leurs logos est présent partout mais ils ont également un logo "responsive" qu
   - Section de text
   - Section avec les 3 dernières news
 
-4. **Page À propos de nous**
+6. **Page À propos de nous**
 
+    - des avatars un peu différents et animés 
+    - courtes descriptions de qui ils sont 
+    - CTA pour redirige vers la page capsule et contactez nous
 
-4. **Page Contactez-nous**
+7. **Page Contactez-nous**
 
+    - Formulaire de contact avec suggestion de raison de contact (message, avis, question, suggestion, thème à proposer, etc)
+    - bouton de contact directement par mail ou encore proposez de les contacter par IG 
+    
+8. **Page Média et Presse**
+   
+    - Texte simple style private policy 
+    - CTA contactez-nous pour plus d'info si pas clair 
+    
 
-4. **Page Média et Presse**
+    
+
