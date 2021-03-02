@@ -7,17 +7,14 @@
 
 ## 1. Présentation
 
-Sarah JOIRET (astrophysicienne) et Léo COTTELEER (ingénieur aérospaciale) ont créé un compte à deux, sur instagram appelé "**EasySpacy**" qui à pour but de de  faire de la communication sur des aspects scientifiques liés à l'**aérospaciale** et l'**astrophysique**. Ils font de la vulgarisation scientifique.
+Sarah JOIRET (astrophysicienne) et Léo COTTELEER (ingénieur aérospatiale) ont créé un compte à deux, sur instagram appelé "**EasySpacy**" qui à pour but de de  faire de la communication sur des aspects scientifiques liés à l'**aérospaciale** et l'**astrophysique**. Il s'agit de vulgarisation scientifique.
 
-Leurs objectifs est de partager des **informations scientifiques vérifiées** de manière à ce que tout le monde puisse les comprendre.
+L'objectif est de partager des **informations scientifiques vérifiées** de manière à ce que tout le monde puisse les comprendre.
 
-Leurs posts se présentent sous forme de petites **capsules** qui comprend 7 à 8 slides, où les informations sont ludiques, accrocheuses, simples à comprendre et facile et rapide à lire.
+Les posts se présentent sous forme de petites **capsules** qui comprend 7 à 8 slides, où les informations sont ludiques, accrocheuses, simples à comprendre et facile et rapide à lire.
 
-Dans ses posts ont retrouvent des images, photos, illustrations et vidéos.
+Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
 
-Créer un lien avec le lecteur en faisant intervenir leur avatar.
-
-Leur logo  est présent partout, ils ont également un logo "responsive" qui reprend uniquement la fusée et qui toujours présent dans leurs posts.
 
 ## 2. Public cible
 
@@ -25,109 +22,127 @@ Leur logo  est présent partout, ils ont également un logo "responsive" qui rep
 - Tous ceux/celles qui n'ont pas instagram
 - Personnes âgées (qui n'ont pas à chercher midi à 14 heures pour trouver et comprendre l'information)
 
+
 ## 3. Cahier des charges
 
 1. Base
-
-  - Site simple (pas trop de couleur, ni de fonctionnalités, etc)
-  - Site intuitif (facile à utiliser, ergonomique, efficace et efficient)
-  - Faire intervenir leurs "avatars"
-  - garder leurs palettes de couleur (ou pas trop dériver)
-  - Choisir des polices sobres et bien tracé (open sans) pas trop extravagant
-  - site en blanc
-  - Version plus complète que les postes instas
-
+    - Site simple (pas trop de couleur, ni de fonctionnalités, etc)
+    - Site intuitif (facile à utiliser, ergonomique, efficace et efficient)
+    - Faire intervenir les "avatars"
+    - garder la palette de couleur suggérée (ou ne pas trop dériver)
+    - Choisir des polices sobres et bien tracés (open sans) pas trop extravagantes
+    - Site en blanc
+    - Les capsules seront des versions longues des posts instagram
 
 2. Fonctionnalités souhaitées
-
-  - Barre de recherche
-  - Site web RESPONSIVE
-  - Dynamique (mouse Hover)
-  - Formulaire de contact (avec option : message, avis, question, suggestion, thème à proposer etc)
-
+    - Barre de recherche
+    - Site web RESPONSIVE
+    - Logo responsive (possibilité de n'affiche que la fusée)
+    - Dynamique (mouse Hover)
+    - Formulaire de contact (avec option : message, avis, question, suggestion, thème à proposer etc)
 
 4.  Pages
+    - Capsule (Accueil)
+        - Bannière accrocheuse avec les avatars
+        - Listes des capsules
+    - Page d'une capsule (article)
+        - Images + description
+        - Lien vers le ; post de IG de la capsule
+    - News (actualités)
+        - Actualité d'EasySpacy
+        - concours et prix vulgarisation scientifique
+        - style blog
+    - À propos de (about us)
+        - présentation brève (pas trop long)
+    - Contact
+        - formulaire de contact
+        - adresse mail
+    - Pied de page
+        - lien journaliste : relayer information
 
-  - Capsule (accueil?)
-      - Bannière accrocheuse avec les avatars
-      - vitrine avec différents postes qui dirigent vers les postes
-      - Slider des images (posts)
-      - Description plus complètent en dessous
-  - Une capsule
-      - Lien vers le post de IG
-  - News
-      - Actualité d'easyspacy
-      - concours et prix vulgarisation scientifique
-      - style blog
-  - À propos de
-      - Les présenter brièvement (background, motivations, avec les avatars, textes pas LONG du tout !)
-  - Contact
-      - formulaire de contact
 
-  - Mettre en avant leurs mails professionnels et leurs compte IG
-  - Footer
-      - charte graphique
-      - Information pour relayer informations
-
-## 3. Plan du site (TODO: pas encore totalement fini)
+## 3. Plan du site
 
 1. **Accueil**
-  - _Section 1 - header - main_
-    - Menu bar avec barre de recherche
-    - mettre logo IG dans la barre de recherche?
-    - bannière avec mini présentation (banniere slider ? avec flèche)
-    - 1 CTA pour aller vers la présentaion
-    - 1 CTA pour voir les capsules
-  - _Section 2 - body - content_
-    - Une section qui montre les 3 ou 4 dernières capsules
-    - 1 CTA juste en dessous (centré) pour "voir toutes les capsules"
-  - _Section 3 - footer_
-    - formulaire ou CTA vers le Formulaire
-    - compte IG dans le Footer
-    - Différent lien de redirection
-    - adresses mail
-    - page charte graphique
-    - page presse & média
+
+  - _Section 1 - En-tête : header_
+    - Barre de menu pour pouvoir naviguer entre différentes pages (news, a propos, contact)
+    - les avatars seront dans cette section
+    - Bouton de recherche
+    - Logo instagram dans barre de menu
+  - _Section 2 - juste en dessous de l'en tête_
+    - Sera composée d'une grande bannière qui prendra ±80% de la hauteur de la page
+    - dans la bannière, une phrase qui résume le site
+    - on y trouvera 1 bouton assez voyant qui renverra vers la page "à propos" afin d'en savoir plus
+    - un autre bouton s'y trouvera également qui renverra plus bas dans la page, à la section Capsules (au cas où l'utilisateur ne sait pas qu'il faut de glisser vers le bas pour accéder au contenu réel de page)
+  - _Section 3 - Contenu : Capsules_
+    - Listes des capsules
+    - tout en haut de cette liste se trouvera deux boutons (aérospatiale et astrophysique) qui permettront de trier les capsules en fonction de ce qui sera cliqué
+    - au clique sur une capsule, on sera rediriger vers la page de l'article de la capsule sur laquelle on aura cliqué
+    - cette section-ci affichera une dizaine de capsules
+    - en bas se trouvera un bouton "afficher plus" afin d'en afficher plus
+  - _Section 4 - pré-pied de page_
+    - Formulaire de contact
+    - les avatars seront ici aussi afin de donner un côté humain et inciter l'utilisateur à interagir sans crainte
+  - _Section 5 - Pied de page_
+    - Lister les pages du site
+    - Mettre le Logo instagram afin de rediriger vers EasySpacy IG
+    - adresse mail
+    - lien pour presse & média qui redirige vers la page presse-média qui informera les journalistes de comment relayer les informations
 
 
-2. **Page des Capsules**
-  - 2 CTA (style TAG) pour "aérospaciale" et un autre pour "astrophysique" pour filtrer les deux avec des petites illustrations animées aux Hover
-  - automatiquement trié par ordre décroissant (le dernier ajouté sera en haut)
-  - je ne sais pas encore comment les afficher (sorte de gallerie ? avec un hover)
-  - Au clique, renvoi vers la page de l'article (LA capsule)
+2. **Page d'une capsule**
 
-
-3. **Page d'une capsule**
-  - Slider avec les images de leurs posts IG
-  - Texte descriptifs de ce qui est marqué sur les images avec des informations complémentaires voires additionnelles
-  - à la fin avant le footer ajouter une section pour rediriger vers les 3 ou 4 derniers articles (capsules)
+    - Slider avec les images de leurs posts IG
+    - Texte descriptif de ce qui est marqué sur les images avec des informations complémentaires voir additionnelles
+    - à la fin avant le pied de page ajouter une section pour rediriger vers les 3 ou 4 derniers articles (capsules) suivi d'un lien (bouton) "voir toutes les capsules"
 
 
 4. **Page News**
-  - Trier par ordre décroissant aussi
-  - mettre l'image de l'articles
-  - première phrase catch de l'articles
-  - CTA lire plus
+
+    - Trier par ordre décroissant
+    - mettre l'image de l'articles avec un titre
+    - suivi d'une phrase catch de l'article
+    - bouton "lire plus" qui redirigera vers la news
 
 
 5. **Page d'une seule News**
-  - Style blog
-  - Une image
-  - Section de text
-  - Section avec les 3 dernières news
+
+    - Style blog
+    - Une image
+    - Le texte de la news
+    - avant le pied de page il y aura une section avec les 3 ou 4 dernières news afin d'inciter l'utilisateur à lire plus pour qu'il n'ai pas l'impression d'être pris dans un cul de sac
+    - suivi d'un lien "voir toutes les news" et renvoyer vers la page qui liste toutes les news
 
 
 6. **Page À propos de nous**
-    - des avatars un peu différents et animés
-    - courtes descriptions de qui ils sont
-    - CTA pour redirige vers la page capsule et contactez nous
+
+    - On retrouvera les avatars ici aussi, un peu différents et légèrement animés (pour ne pas donner le tournis)
+    - suivi d'une courte description de ce qu'est EasySpacy et qui dirige easy spacy
+    - En parlant des capsules dans le texte, rendre le mot capsule clickable afin de rediriger l'utilisateur vers la section capsule de la page d'accueil
+    - Encore une fois, afin de ne pas donner l'impression à l'utilisateur d'être pris dans un cul de sac, mettre le formulaire de contact avant le pied de page
+    - avant le pré - pied de page ajouter une section qui reprend les 3 ou 4 derniers capsules suivi d'un lien "voir toutes les capsules"
 
 
 7. **Page Contactez-nous**
-    - Formulaire de contact avec suggestion de raison de contact (message, avis, question, suggestion, thème à proposer, etc)
-    - bouton de contact directement par mail ou encore proposez de les contacter par IG
+    - Titre de la page
+    - court texte afin d'inciter l'utilisateur à nous contacter
+    - Formulaire de contact
+    - bouton pour contacter par mail
+    - bouton nous contacter sur instagram
+    - les avatars ici seront différent également
+    - bouton
 
 
 8. **Page Média et Presse**
-    - Texte simple style private policy
-    - CTA contactez-nous pour plus d'info si pas clair
+
+    - Texte simple style private policy pas de chichi
+    - ajouter un bouton "nous contacter si ce n'est pas claire ou pour des infos additionnelles" en haut de la page
+    - remettre le formulaire de contact ici aussi
+
+
+9. **Page Erreur**
+
+    - La page erreur sera principalement les avatars en grands
+    - un texte du style "oops, vous vous êtes perdu !"
+    - proposer les liens capsules, news et contact précédant "vous cherchiez peut-être ..."
