@@ -7,7 +7,7 @@
 
 ## 1. Présentation
 
-Sarah JOIRET (astrophysicienne) et Léo COTTELEER (ingénieur aérospatiale) ont créé un compte à deux, sur instagram appelé "**EasySpacy**" qui à pour but de de  faire de la communication sur des aspects scientifiques liés à l'**aérospaciale** et l'**astrophysique**. Il s'agit de vulgarisation scientifique.
+Sarah JOIRET (astrophysicienne) et Léo COTTELEER (ingénieur aérospatiale) ont créé un compte à deux, sur instagram appelé "**EasySpacy**" qui a pour but de de  faire de la communication sur des aspects scientifiques liés à l'**aérospaciale** et l'**astrophysique**. Il s'agit de vulgarisation scientifique.
 
 L'objectif est de partager des **informations scientifiques vérifiées** de manière à ce que tout le monde puisse les comprendre.
 
@@ -101,7 +101,7 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
 4. **Page News**
 
     - Trier par ordre décroissant
-    - mettre l'image de l'articles avec un titre
+    - mettre l'image de l'article avec un titre
     - suivi d'une phrase catch de l'article
     - bouton "lire plus" qui redirigera vers la news
 
@@ -111,7 +111,7 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
     - Style blog
     - Une image
     - Le texte de la news
-    - avant le pied de page il y aura une section avec les 3 ou 4 dernières news afin d'inciter l'utilisateur à lire plus pour qu'il n'ai pas l'impression d'être pris dans un cul de sac
+    - avant le pied de page il y aura une section avec les 3 ou 4 dernières news afin d'inciter l'utilisateur à lire plus pour qu'il n'ait pas l'impression d'être pris dans un cul-de-sac
     - suivi d'un lien "voir toutes les news" et renvoyer vers la page qui liste toutes les news
 
 
@@ -119,8 +119,8 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
 
     - On retrouvera les avatars ici aussi, un peu différents et légèrement animés (pour ne pas donner le tournis)
     - suivi d'une courte description de ce qu'est EasySpacy et qui dirige easy spacy
-    - En parlant des capsules dans le texte, rendre le mot capsule clickable afin de rediriger l'utilisateur vers la section capsule de la page d'accueil
-    - Encore une fois, afin de ne pas donner l'impression à l'utilisateur d'être pris dans un cul de sac, mettre le formulaire de contact avant le pied de page
+    - En parlant des capsules dans le texte, rendre le mot capsule cliquable afin de rediriger l'utilisateur vers la section capsule de la page d'accueil
+    - Encore une fois, afin de ne pas donner l'impression à l'utilisateur d'être pris dans un cul-de-sac, mettre le formulaire de contact avant le pied de page
     - avant le pré - pied de page ajouter une section qui reprend les 3 ou 4 derniers capsules suivi d'un lien "voir toutes les capsules"
 
 
@@ -136,13 +136,13 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
 
 8. **Page Média et Presse**
 
-    - Texte simple style private policy pas de chichi
-    - ajouter un bouton "nous contacter si ce n'est pas claire ou pour des infos additionnelles" en haut de la page
+    - Texte simple sans chi-cho (comme les Politique de confidentialité des sites web)
+    - ajouter un bouton "nous contacter si ce n'est pas clair ou pour des infos additionnelles" en haut de la page
     - remettre le formulaire de contact ici aussi
 
 
 9. **Page Erreur**
 
     - La page erreur sera principalement les avatars en grands
-    - un texte du style "oops, vous vous êtes perdu !"
+    - un texte du style "Oups, vous vous êtes perdu !"
     - proposer les liens capsules, news et contact précédant "vous cherchiez peut-être ..."
