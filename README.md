@@ -11,10 +11,11 @@ Sarah JOIRET (astrophysicienne) et Léo COTTELEER (ingénieur aérospatiale) ont
 
 L'objectif est de partager des **informations scientifiques vérifiées** de manière à ce que tout le monde puisse les comprendre.
 
-Les posts se présentent sous forme de petites **capsules** qui comprend 7 à 8 slides, où les informations sont ludiques, accrocheuses, simples à comprendre et facile et rapide à lire.
+Les posts se présentent sous forme de petites **capsules** qui comprend 7 à 8 slides, où les informations sont ludiques, accrocheuses, simples à comprendre, facile et rapide à lire.
 
 Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
 
+***
 
 ## 2. Public cible
 
@@ -22,6 +23,9 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
 - Tous ceux/celles qui n'ont pas instagram
 - Personnes âgées (qui n'ont pas à chercher midi à 14 heures pour trouver et comprendre l'information)
 
+- L'approche principale se fera donc en version pour ordinateur puis l'adaptation du site pour les téléphones en second
+
+***
 
 ## 3. Cahier des charges
 
@@ -34,12 +38,13 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
     - Site en blanc
     - Les capsules seront des versions longues des posts instagram
 
-2. Fonctionnalités souhaitées
+2. Fonctionnalités
     - Barre de recherche
     - Site web RESPONSIVE
     - Logo responsive (possibilité de n'affiche que la fusée)
     - Dynamique (mouse Hover)
     - Formulaire de contact (avec option : message, avis, question, suggestion, thème à proposer etc)
+    - La gestion du site se fera par la suite via le [CMS WordPress](https://harsene.com/cest-quoi-wordpress/)
 
 4.  Pages
     - Capsule (Accueil)
@@ -61,7 +66,10 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
         - lien journaliste : relayer information
 
 
-## 3. Plan du site
+***
+
+## 4. Plan du site
+
 
 1. **Accueil**
 
@@ -125,6 +133,7 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
 
 
 7. **Page Contactez-nous**
+
     - Titre de la page
     - court texte afin d'inciter l'utilisateur à nous contacter
     - Formulaire de contact
@@ -136,7 +145,7 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
 
 8. **Page Média et Presse**
 
-    - Texte simple sans chi-cho (comme les Politique de confidentialité des sites web)
+    - Texte simple sans chi-chi (comme les Politique de confidentialité des sites web)
     - ajouter un bouton "nous contacter si ce n'est pas clair ou pour des infos additionnelles" en haut de la page
     - remettre le formulaire de contact ici aussi
 
@@ -144,5 +153,5 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
 9. **Page Erreur**
 
     - La page erreur sera principalement les avatars en grands
-    - un texte du style "Oups, vous vous êtes perdu !"
-    - proposer les liens capsules, news et contact précédant "vous cherchiez peut-être ..."
+    - un texte du style "Oops, vous vous êtes perdu !"
+    - proposer des liens capsules, news et contact précédant "vous cherchiez peut-être ..." afin de rediriger l'utilisateur
