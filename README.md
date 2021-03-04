@@ -83,6 +83,7 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
     - dans la bannière, une phrase qui résume le site
     - on y trouvera 1 bouton assez voyant qui renverra vers la page "à propos" afin d'en savoir plus
     - un autre bouton s'y trouvera également qui renverra plus bas dans la page, à la section Capsules (au cas où l'utilisateur ne sait pas qu'il faut de glisser vers le bas pour accéder au contenu réel de page)
+    - une flèche sera placé tout en bas pour indiquer qu'on peut scroll (glisser)
   - _Section 3 - Contenu : Capsules_
     - Listes des capsules
     - tout en haut de cette liste se trouvera deux boutons (aérospatiale et astrophysique) qui permettront de trier les capsules en fonction de ce qui sera cliqué
