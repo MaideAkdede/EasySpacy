@@ -3,6 +3,9 @@
 > [EasySpacy sur Instagram](https://www.instagram.com/easyspacy/)
 
 > [Lien de mon Moodboard sur Milanote](https://app.milanote.com/1Lfo791VkWHGbQ?p=xDNRXlUyrhc)
+
+> [Wireframe Prototype Figma](https://www.figma.com/proto/efLBUsdbNGzrA3uNj87OsQ/Maide---EasySpacy---Wireframe?node-id=122%3A207&scaling=min-zoom)
+
 ***
 
 ## 1. Présentation
@@ -21,9 +24,9 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
 
 - Tout public (assez large)
 - Tous ceux/celles qui n'ont pas instagram
-- Personnes âgées (qui n'ont pas à chercher midi à 14 heures pour trouver et comprendre l'information)
+- Personnes âgées
 
-- L'approche principale se fera donc en version pour ordinateur puis l'adaptation du site pour les téléphones en second
+- L'approche principale se fera donc en version pour ordinateur puis l'adaptation du site pour les téléphones en second (le développement se fera en Mobile First)
 
 ***
 
@@ -65,6 +68,9 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
     - Pied de page
         - lien journaliste : relayer information
 
+5. Couleurs
+
+  ![Color palette : 002A3D, E9F4F6, FFFFFF, FDEBD3, E1BAA7](./assets/color-palette.png)
 
 ***
 
@@ -73,26 +79,26 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
 
 1. **Accueil**
 
-  - _Section 1 - En-tête : header_
-    - Barre de menu pour pouvoir naviguer entre différentes pages (news, a propos, contact)
-    - les avatars seront dans cette section
-    - Bouton de recherche
-    - Logo instagram dans barre de menu
-  - _Section 2 - juste en dessous de l'en tête_
-    - Sera composée d'une grande bannière qui prendra ±80% de la hauteur de la page
-    - dans la bannière, une phrase qui résume le site
-    - on y trouvera 1 bouton assez voyant qui renverra vers la page "à propos" afin d'en savoir plus
-    - un autre bouton s'y trouvera également qui renverra plus bas dans la page, à la section Capsules (au cas où l'utilisateur ne sait pas qu'il faut de glisser vers le bas pour accéder au contenu réel de page)
-    - une flèche sera placé tout en bas pour indiquer qu'on peut scroll (glisser)
+  - _Section 1 - Menu (commune à toutes les pages)_
+    - Logo easyspacy (gauche)
+    - Barre de menu pour pouvoir naviguer entre les différentes pages (capsules, news, à propos, contact) (milieu)
+    - Bouton de recherche (droite)
+    - Logo instagram (droite)
+  - _Section 2 - En tête de la page d'accueil_
+    - Sera composée d'une grande bannière
+    - phrase intro du site (présentation très très coute)
+    - lien `"en savoir plus"` qui renvoi vers la page "à propos"
   - _Section 3 - Contenu : Capsules_
-    - Listes des capsules
-    - tout en haut de cette liste se trouvera deux boutons (aérospatiale et astrophysique) qui permettront de trier les capsules en fonction de ce qui sera cliqué
-    - au clique sur une capsule, on sera rediriger vers la page de l'article de la capsule sur laquelle on aura cliqué
-    - cette section-ci affichera une dizaine de capsules
-    - en bas se trouvera un bouton "afficher plus" afin d'en afficher plus
-  - _Section 4 - pré-pied de page_
-    - Formulaire de contact
-    - les avatars seront ici aussi afin de donner un côté humain et inciter l'utilisateur à interagir sans crainte
+    - Listes des capsules (images en formats carrés)
+    - ± 20 Capsules seront affichés
+    - Un bouton `"afficher plus"` afin d'en afficher plus de capsules et donc chargera 20 autres capsules
+    - tout en haut de cette liste de capsule se trouveront des "tags" qui permettront de trier les capsules en fonction de ce qui sera sectionné : `Tout, Aérospaciale, Astrophysique, Autres`
+    - au clique sur une capsule, on sera redirigé vers la page de la capsule sur laquelle on aura cliqué
+  - _Section 4 - avant le pied de page suggérer de voir des news_
+    - titre
+    - sous-titre
+    - bouton pour voir les news
+    - La dernière news
   - _Section 5 - Pied de page_
     - Lister les pages du site
     - Mettre le Logo instagram afin de rediriger vers EasySpacy IG
@@ -104,7 +110,8 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
 
     - Slider avec les images de leurs posts IG
     - Texte descriptif de ce qui est marqué sur les images avec des informations complémentaires voir additionnelles
-    - à la fin avant le pied de page ajouter une section pour rediriger vers les 3 ou 4 derniers articles (capsules) suivi d'un lien (bouton) "voir toutes les capsules"
+    - section "commentaires"
+    - avant le pied de page ajouter une section pour rediriger vers les 3 ou 4 derniers articles (capsules) suivi d'un lien (bouton) `"Voir toutes les capsules"`
 
 
 4. **Page News**
@@ -113,6 +120,8 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
     - mettre l'image de l'article avec un titre
     - suivi d'une phrase catch de l'article
     - bouton "lire plus" qui redirigera vers la news
+    - ± 24 news seront listés , pour voir la suite je propose une "pagination" à la fin de la section (`Page préc. | 1, 2, 3 | Page Suiv.`)
+    - Mettre les "revues de presses" dans cette page
 
 
 5. **Page d'une seule News**
@@ -120,9 +129,7 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
     - Style blog
     - Une image
     - Le texte de la news
-    - avant le pied de page il y aura une section avec les 3 ou 4 dernières news afin d'inciter l'utilisateur à lire plus pour qu'il n'ait pas l'impression d'être pris dans un cul-de-sac
-    - suivi d'un lien "voir toutes les news" et renvoyer vers la page qui liste toutes les news
-
+    - avant le pied de page il y aura une section avec les 3 ou 4 dernières news afin d'inciter l'utilisateur à lire plus pour qu'il n'ait pas l'impression d'être pris dans un cul-de-sac suivit d'un bouton `"voir toutes les news"`.
 
 6. **Page À propos de nous**
 
@@ -151,8 +158,14 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
     - remettre le formulaire de contact ici aussi
 
 
-9. **Page Erreur**
+8. **Page Recherche**
 
-    - La page erreur sera principalement les avatars en grands
-    - un texte du style "Oops, vous vous êtes perdu !"
-    - proposer des liens capsules, news et contact précédant "vous cherchiez peut-être ..." afin de rediriger l'utilisateur
+    - Afficher le résultat de la Recherche
+    - Nombre de résultat trouvé
+    - Les résultats seront affichées en forme de liste (avec texte + description de la page)
+    - A coté de ses listes ajouter un bouton pour dire "accéder à la page" ou "lire plus".
+
+9. **Page Recherche : pas de résultat**
+
+    - écrire une phrase typique "oops pas de résultat" et faire intervenir les avatars
+    - proposer un bouton pour "voir toutes les capsules"
