@@ -133,29 +133,25 @@ Dans ces posts, on retrouve des images, photos, illustrations et vidéos.
 
 6. **Page À propos de nous**
 
-    - On retrouvera les avatars ici aussi, un peu différents et légèrement animés (pour ne pas donner le tournis)
-    - suivi d'une courte description de ce qu'est EasySpacy et qui dirige easy spacy
-    - En parlant des capsules dans le texte, rendre le mot capsule cliquable afin de rediriger l'utilisateur vers la section capsule de la page d'accueil
-    - Encore une fois, afin de ne pas donner l'impression à l'utilisateur d'être pris dans un cul-de-sac, mettre le formulaire de contact avant le pied de page
-    - avant le pré - pied de page ajouter une section qui reprend les 3 ou 4 derniers capsules suivi d'un lien "voir toutes les capsules"
+    - On retrouvera les avatars ici aussi
+    - une courte description de ce qu'est EasySpacy et qui dirige easy spacy
+    - avant le pré - pied de page ajouter une section qui reprend les 3 ou 4 derniers capsules suivi d'un lien `"voir toutes les capsules"`
 
 
 7. **Page Contactez-nous**
 
     - Titre de la page
     - court texte afin d'inciter l'utilisateur à nous contacter
+    - faire interagir les avatars
     - Formulaire de contact
-    - bouton pour contacter par mail
-    - bouton nous contacter sur instagram
-    - les avatars ici seront différent également
-    - bouton
+    - lien nous contacter par mail
+    - lien nous contacter sur instagram
 
 
 8. **Page Média et Presse**
 
     - Texte simple sans chi-chi (comme les Politique de confidentialité des sites web)
     - ajouter un bouton "nous contacter si ce n'est pas clair ou pour des infos additionnelles" en haut de la page
-    - remettre le formulaire de contact ici aussi
 
 
 8. **Page Recherche**
