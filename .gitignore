@@ -1,2 +1,16 @@
+/*
+
+!.gitignore
+!README.md
+!package.json
+!webpack.mix.js
+!/assets
 .DS_Store
 /.idea
+
+!/wp-content
+/wp-content/*
+!/wp-content/themes
+/wp-content/themes/*
+!/wp-content/themes/easyspacy
+/wp-content/themes/easyspacy/public/*
