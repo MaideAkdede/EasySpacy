@@ -21,6 +21,7 @@
     <h1 class="top__title sro"><?= is_front_page() ? 'Accueil' : trim(wp_title('Easy Spacy •')); ?></h1>
 
     <nav class="top__menu menu">
+        <h2 class="sro">Navigation</h2>
         <div class="menu__list">
             <div class="menu__separation">
                 <div class="menu__item">
