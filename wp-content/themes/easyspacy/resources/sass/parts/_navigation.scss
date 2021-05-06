@@ -1,5 +1,6 @@
 .menu{
   background-color: $extra-light-blue;
+  padding: 0.875rem 4rem;
   &__list{
     display: flex;
     flex-direction: row;
@@ -8,5 +9,10 @@
   &__separation{
     display: flex;
     flex-direction: row;
+  }
+  &__separation:nth-child(2){
+    .menu__item{
+      margin: 0 1rem;
+    }
   }
 }
