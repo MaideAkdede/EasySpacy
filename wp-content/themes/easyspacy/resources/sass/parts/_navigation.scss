@@ -1,0 +1,12 @@
+.menu{
+  background-color: $extra-light-blue;
+  &__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__separation{
+    display: flex;
+    flex-direction: row;
+  }
+}
