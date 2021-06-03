@@ -28,6 +28,7 @@
                     <a href="" class="menu__link">Accueil</a>
                 </div>
             </div>
+
             <div class="menu__separation">
                 <div class="menu__item">
                     <a href="" class="menu__link">Capsules</a>
@@ -42,6 +43,7 @@
                     <a href="" class="menu__link">Contact</a>
                 </div>
             </div>
+
             <div class="menu__separation">
                 <div class="menu__search search">
                     <form action="" class="search__form">
