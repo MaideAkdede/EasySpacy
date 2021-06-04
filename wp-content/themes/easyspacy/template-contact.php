@@ -8,10 +8,11 @@
         </div>
         <div class="contact__content">
             <div class="contact__form">
-
+                <?= do_shortcode('[contact-form-7 id="6" title="Formulaire de Contact"]');?>
             </div>
-            <div class="content__info">
-
+            <div class="contact__info">
+                <a href="mailto:easyspacy@gmail.com" class="contact__link">easy@spacy.be</a>
+                <a href="https://www.instagram.com/easyspacy/?hl=fr" class="contact__link">@easyspacy</a>
             </div>
         </div>
     </main>
