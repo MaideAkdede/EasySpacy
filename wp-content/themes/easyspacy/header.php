@@ -11,8 +11,8 @@
         } ;?>
     </title>
     <!--ASSETS-->
-    <link rel="stylesheet" href="<?= dw_assets('css/theme.css') ?>">
-    <script src="<?= dw_assets('js/app.js') ?>"></script>
+    <link rel="stylesheet" href="<?= es_assets('css/theme.css') ?>">
+    <script src="<?= es_assets('js/app.js') ?>"></script>
     <!--WORDPRESS-->
     <?php wp_head(); ?>
 </head>
@@ -29,20 +29,18 @@
                 </div>
             </div>
 
-            <div class="menu__separation">
-                <div class="menu__item">
-                    <a href="" class="menu__link">Capsules</a>
-                </div>
-                <div class="menu__item">
-                    <a href="" class="menu__link">News</a>
-                </div>
-                <div class="menu__item">
-                    <a href="" class="menu__link">À propos</a>
-                </div>
-                <div class="menu__item">
-                    <a href="" class="menu__link">Contact</a>
-                </div>
-            </div>
+            <nav class="main-navigation">
+                <h3 class="sro">Navigation principale</h3>
+                <ul class="main-navigation__list">
+                    <?php foreach (es_menu('main') as $link) : ?>
+                        <li class="main-navigation__item">
+                            <a href="<?= $link->url; ?>" class="main-navigation__link <?= es_bem('main-navigation__link', $link->modifiers); ?>">
+                                <?= $link->label; ?>
+                            </a>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </nav>
 
             <div class="menu__separation">
                 <div class="menu__search search">
