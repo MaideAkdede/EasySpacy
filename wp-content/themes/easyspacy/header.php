@@ -44,13 +44,13 @@
         </div>
 
         <nav class="header__menu menu">
-            <a href="" class="menu__close"><img src="<?php echo get_template_directory_uri() . '/resources/img/close-cross.svg' ?>"
+            <a href="" class="menu__close" title="Fermer le menu"><img src="<?php echo get_template_directory_uri() . '/resources/img/close-cross.svg' ?>"
                             alt="fermer le menu" height="25"></a>
             <ul class="menu__ul">
                 <?php foreach (es_menu('main') as $link) : ?>
                     <li class="menu__li">
                         <a href="<?= $link->url; ?>"
-                           class="menu__link <?= es_bem('main-navigation__link', $link->modifiers); ?>">
+                           class="menu__link <?= es_bem('main-navigation__link', $link->modifiers); ?>" title="Accéder à la page <?= $link->label; ?>">
                             <?= $link->label; ?>
                         </a>
                     </li>
@@ -58,6 +58,9 @@
             </ul>
         </nav>
 
+    </div>
+    <div class="progress">
+        <div class="progress__bar"></div>
     </div>
     <div class="header__search search">
         <?php get_search_form(); ?>
