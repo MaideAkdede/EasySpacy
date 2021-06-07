@@ -1,16 +1,20 @@
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-    <main class="content">
-        <header class="content__hero">
-            <h2 class="content__title">Ceci est le hero</h2>
-            <p class="content__tagline"><?php bloginfo('description'); ?></p>
-        </header>
-        <div class="content__wysiwyg"><?php the_content(); ?></div>
-
+    <main class="home">
+        <div class="home__header">
+            <h2 class="home__title"><?php the_field('home-title'); ?></h2>
+            <div class="home__wysiwyg">
+                <?php the_content(); ?>
+                <a href="./a-propos" class="home__link">en savoir plus</a>
+            </div>
+        </div>
+        <div class="home__capsules capsules" id="capsules">
+            <h2 class="capsules__title">Capsules</h2>
+            <div class="capsules__definition">
+                <?php the_field('capsules-def'); ?>
+            </div>
+            <?php get_template_part('template-capsules'); ?>
+        </div>
     </main>
-<?php endwhile; else : ?>
-    <div class="empty">
-        <p class="empty__message">Oups, nous n'avons rien à afficher.</p>
-    </div>
-<?php endif; ?>
+<?php endwhile; endif; ?>
 <?php get_footer(); ?>

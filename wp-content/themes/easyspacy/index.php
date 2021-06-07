@@ -6,9 +6,10 @@
         </div>
     </main>
 <?php endwhile; else : ?>
-    <div class="empty">
-        <h2>Cette page n'existe pas :( </h2>
-        <p>Il semblerait que vous vous soyez perdu</p>
-    </div>
+    <main class="error">
+        <h2 class="error__title">Oops</h2>
+        <p class="error__message">La page que vous cherchez est introuvable ! </p>
+        <a href="" class="error__link cta">Retourner à l'accueil</a>
+    </main>
 <?php endif; ?>
 <?php get_footer(); ?>

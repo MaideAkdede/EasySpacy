@@ -65,7 +65,7 @@ function es_custom_post_type()
         'public' => true,
         'menu_position' => 5,
         'menu_icon' => 'dashicons-format-gallery',
-        'supports' => ['title', 'editor'],
+        'supports' => ['title', 'editor', 'comments'],
         'rewrite' => [
             'slug' => 'capsules'
         ]
@@ -81,7 +81,7 @@ function es_custom_post_type()
         'public' => true,
         'menu_position' => 6,
         'menu_icon' => 'dashicons-admin-site-alt3',
-        'supports' => ['title', 'editor'],
+        'supports' => ['title', 'editor', 'comments'],
         'rewrite' => [
             'slug' => 'news'
         ]
