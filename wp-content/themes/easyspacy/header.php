@@ -26,21 +26,21 @@
     <?php wp_head(); ?>
 </head>
 <body>
-<header class="header">
+<header class="header header__fixed">
     <h1 class="header__title sro"><?= is_front_page() ? 'Accueil' : trim(wp_title('Easy Spacy •')); ?></h1>
 
     <div class="header__container">
         <h2 class="sro">Navigation</h2>
 
-        <a href="<?= site_url(); ?>" class="menu__logo">
-            <img src="<?php echo get_template_directory_uri() . '/resources/favicon/easyspacy-300.png' ?>"
+        <a href="<?= site_url(); ?>" class="menu__home">
+            <img class="logo logo__home" src="<?php echo get_template_directory_uri() . '/resources/favicon/easyspacy-300.png' ?>"
                  alt="Easy Spacy (Accueil)" width="60">
         </a>
         <div class="header__mobile">
             <a href="" class="menu__search menu__logo" title="Ouvrir le formulaire de recherche"><img src="<?php echo get_template_directory_uri() . '/resources/img/loupe.svg' ?>"
-                            alt="Faire une recherche"></a>
+                            alt="Faire une recherche" class="logo logo__search"></a>
             <a href="" class="menu__open menu__logo" title="Ouvrir le menu"><img src="<?php echo get_template_directory_uri() . '/resources/img/menu.svg' ?>"
-                            alt="Ouvrir le menu"></a>
+                            alt="Ouvrir le menu" class="logo logo__menu"></a>
         </div>
 
         <nav class="header__menu menu">

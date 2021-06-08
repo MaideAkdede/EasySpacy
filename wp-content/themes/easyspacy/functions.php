@@ -45,7 +45,8 @@ add_action('init', 'es_custom_navigation_menus');
 function es_custom_navigation_menus()
 {
     register_nav_menus([
-        'main' => 'Navigation principale'
+        'main' => 'Navigation principale',
+        'footer' => 'Lien du pied de page',
     ]);
 }
 

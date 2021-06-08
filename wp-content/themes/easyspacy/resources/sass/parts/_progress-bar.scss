@@ -1,8 +1,9 @@
 .progress{
   width: 100vw;
   background-color: white;
+  overflow: hidden;
   &__bar{
-    width: 0;
+    width: 1%;
     height: 8px;
     background-color: $es_orange;
   }

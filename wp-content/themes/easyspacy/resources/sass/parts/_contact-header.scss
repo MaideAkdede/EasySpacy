@@ -1,0 +1,37 @@
+.contact{
+  &__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__wysiwyg{
+    max-width: 45ch;
+    padding: 1.5rem 2rem 1.5rem;
+    background-color: $extra-light-blue;
+    border-radius: 25px;
+    margin-bottom: 8rem;
+    position: relative;
+  }
+  &__bulle{
+    position: absolute;
+    right: calc(20% - 35px);
+    z-index: -1;
+    margin-top: 1rem;
+    & img{
+      width: 75px;
+      object-fit: cover;
+    }
+  }
+  &__avatars{
+    display: flex;
+    position: absolute;
+    right: calc(80% - 150px);
+  }
+  &__avatar{
+    width: 150px;
+  }
+  &__avatar:nth-child(2) {
+    margin-left: -5rem;
+  }
+}

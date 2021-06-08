@@ -11,13 +11,16 @@ export default class MenuProgress {
         this.height = document.body.clientHeight - window.innerHeight ; //hauteur total de la page - ce qu‘on voit (donc qui ne sera jamais scroll)
         this.percent = (this.scrollTop / this.height) * 100;
         //event
-        window.addEventListener('scroll', ()=>{
-            this.scrollTop = window.scrollY;
-            this.height = document.body.clientHeight - window.innerHeight;
-            this.percent = (this.scrollTop / this.height) * 100;
-           this.bar.style.width = this.percent + '%' ;
-        });
-
+        if(document.body.clientHeight <= window.innerHeight){
+            this.bar.style.width = window.innerHeight + '%' ;
+        } else if(document.body.clientHeight > window.innerHeight){
+            window.addEventListener('scroll', ()=>{
+                this.scrollTop = window.scrollY;
+                this.height = document.body.clientHeight - window.innerHeight;
+                this.percent = (this.scrollTop / this.height) * 100;
+                this.bar.style.width = this.percent + '%' ;
+            });
+        }
     }
 
 }

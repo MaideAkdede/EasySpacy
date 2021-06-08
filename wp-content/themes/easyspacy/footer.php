@@ -1,10 +1,10 @@
 <footer class="footer">
-    <a href="" title="retourner en haut de la page">
+    <a href="" title="retourner en haut de la page" class="footer__svg--link">
         <!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-        <svg version="1.0" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        <svg class="footer__svg" version="1.0" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              x="0px" y="0px"
              viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve" width="100">
-                <path fill="#064E50" d="M176.7,122.8c0,21.3,0,42.5,0,63.8c0,2.1,0.5,3.7,1.8,5.4c11,14.2,21.9,28.5,32.9,42.7
+                <path stroke="#003C62" stroke-width="1" d="M176.7,122.8c0,21.3,0,42.5,0,63.8c0,2.1,0.5,3.7,1.8,5.4c11,14.2,21.9,28.5,32.9,42.7
                     c1.2,1.6,1.7,3.2,1.7,5.2c0,14.9,0,29.8,0,44.7c0,1.7,0.2,3.7-1.8,4.2c-2.2,0.6-4.7,0.8-6.8-0.3c-1.1-0.6-1.1-1.9-1.1-3
                     c0-3.2,0-6.4,0-9.6c0-1.3-0.4-2.1-1.4-2.8c-9.1-6.7-18.3-13.4-27.4-20.1c-0.9-0.7-1.8-0.8-2.9-0.8c-4.5,0-9,0.1-13.5,0
                     c-2-0.1-2.2,0.7-2.2,2.4c0.1,10,0,20,0,30.1c0,4-0.6,4.5-4.6,4.5c-7.6,0-7.6,0-7.6-7.5c0-9-0.1-18,0-27c0-1.9-0.5-2.6-2.5-2.5
@@ -24,23 +24,31 @@
                     C165.8,40.9,158.7,28.6,150.1,17.2z M150.9,238.4c0-14,0-28.1,0-42.1c0-0.6,0-1.1,0-1.7c0-0.6,0.1-1.4-0.8-1.5
                     c-1-0.1-0.9,0.7-0.9,1.3c0,0.5,0,0.9,0,1.4c0,28.4,0,56.7,0,85.1c0,0.4,0,0.8,0,1.1c0.1,0.7-0.3,1.7,0.9,1.6c1,0,0.8-0.8,0.8-1.5
                     c0-0.6,0-1.1,0-1.7C150.9,266.4,150.9,252.4,150.9,238.4z"/>
-            <path fill="#064E50" d="M168.1,166.2c0,13.5,0,27,0,40.4c0,0.7,0,1.3,0,2c0,1.9,0.1,3.9-2.5,4.2c-1.8,0.2-2.7-1.2-2.7-4.1
+            <path stroke="#003C62" stroke-width="1" d="M168.1,166.2c0,13.5,0,27,0,40.4c0,0.7,0,1.3,0,2c0,1.9,0.1,3.9-2.5,4.2c-1.8,0.2-2.7-1.2-2.7-4.1
                     c0-28.6,0-57.3,0-85.9c0-0.8,0-1.7,0.3-2.5c0.5-1.1,1.4-1.5,2.5-1.4c1,0.1,1.7,0.6,2.1,1.6c0.4,1,0.3,2,0.3,3.1
                     C168.1,137.7,168.1,151.9,168.1,166.2z"/>
-            <path fill="#064E50" d="M163,99.8c0-1.6-0.1-3.2,0-4.8c0.1-1.5,0.9-2.5,2.5-2.5c1.5,0,2.5,0.9,2.5,2.4c0.1,3.1,0.1,6.2,0,9.2
+            <path stroke="#003C62" stroke-width="1" d="M163,99.8c0-1.6-0.1-3.2,0-4.8c0.1-1.5,0.9-2.5,2.5-2.5c1.5,0,2.5,0.9,2.5,2.4c0.1,3.1,0.1,6.2,0,9.2
                     c0,1.6-1,2.7-2.7,2.6c-1.5-0.1-2.4-1-2.4-2.6C163,102.8,163,101.3,163,99.8C163,99.8,163,99.8,163,99.8z"/>
                 </svg>
     </a>
-    <div class="footer__ig">
-        <a href="https://www.instagram.com/easyspacy/" title="EasySpacy Sur Instagram"><img
+    <a href="https://www.instagram.com/easyspacy/" title="EasySpacy Sur Instagram" class="footer__ig">
+        <div><img
                     src="<?php echo get_template_directory_uri() . '/resources/img/ig.png' ?>"
-                    alt="EasySpacy sur Instagram" width="36"></a>
-        <p>N'hésitez pas a venir nous suivre sur Instagram <a href="https://www.instagram.com/easyspacy/"
-                                                              title="EasySpacy sur Instagram">@easyspacy</a></p>
-    </div>
+                    alt="EasySpacy sur Instagram" width="36"></div>
+        <p>N'hésitez pas a venir nous suivre sur Instagram <span class="ig__name">@easyspacy</span></p>
+    </a>
     <div class="footer__pages">
-        <a href="" class="footer__link">Média & presse</a>
-        <p class="end_copyright">© Easy - 2020-2021</p>
+       <ul class="footer__ul">
+           <?php foreach (es_menu('footer') as $link) : ?>
+               <li class="footer__li">
+                   <a href="<?= $link->url; ?>"
+                      class="footer__link" title="Accéder à la page <?= $link->label; ?>">
+                       <?= $link->label; ?>
+                   </a>
+               </li>
+           <?php endforeach; ?>
+       </ul>
+        <p class="end_copyright">© Easy Spacy &bull; Sarah Joiret & Léo Cotteleer &bull; 2021-<?= date("Y");?></p>
     </div>
 </footer>
 <?php wp_footer(); ?>

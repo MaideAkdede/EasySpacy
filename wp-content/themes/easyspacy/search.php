@@ -2,7 +2,7 @@
 <?php
 $research = $_GET['s'];
 ?>
-    <main class="search">
+    <main class="search__page">
         <h2 class="search__title">Je cherche : <span><?= $research; ?></span></h2>
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <?php $link = get_permalink(); ?>

@@ -1,0 +1,30 @@
+.footer {
+  &__svg--link {
+    background-color: #faebd4;
+    border-radius: 50%;
+    padding: 0.25rem;
+    transition: background-color 0.5s ease;
+
+    &:focus, &:hover {
+      background-color: $es_orange;
+    }
+  }
+
+  &__svg {
+    width: $_60;
+    fill: $dark-blue;
+    stroke: $dark-blue;
+    animation: rot 5s ease 5;
+    animation-delay: 5s;
+    transform: rotate(0);
+  }
+}
+@keyframes rot {
+  from {
+    transform: rotate(0);
+
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,43 @@
+.contact {
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    & div {
+      margin: 0 1rem;
+      max-width: 80ch;
+    }
+  }
+
+  &__li {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    & a {
+      color: $blue-gray;
+
+      &:hover, &:focus {
+        color: $dark-blue;
+        font-weight: 600;
+      }
+    }
+
+    & .contact__svg {
+      margin: 0.2rem 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 728px) {
+  .contact {
+    &__content {
+
+      justify-content: center;
+    }
+  }
+
+}

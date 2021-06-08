@@ -1,0 +1,43 @@
+.wpcf7-form-control{
+  width: 96%;
+}
+.wpcf7-form{
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: $_18;
+  color: $blue-gray;
+  & label{
+    background-color: white;
+    font-weight: 200;
+  }
+  & input, & textarea{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-left: -1rem;
+    border-radius: 35px;;
+    transition: all 0.35s ease;
+    border: 1px solid $blue-gray;
+
+    font-size: $_18;
+    &:focus, &:hover{
+      box-shadow: 6px 6px 0 0 $es_orange;
+    }
+  }
+  & input[type=submit]{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    transition: background-color 0.35s ease;
+    font-family: $open-sans;
+    color: white;
+    background-color: $blue-gray;
+    width: 28ch;
+    &:hover, &:focus{
+      background-color: $dark-blue;
+      cursor: pointer;
+    }
+  }
+}
