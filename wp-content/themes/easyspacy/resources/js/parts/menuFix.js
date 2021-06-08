@@ -1,11 +1,6 @@
-export default class MenuFix {
+export default class CountSearch {
     static get selector() {
     }
     constructor() {
-
     }
-    fixMenu(){
-
-    }
-
 }

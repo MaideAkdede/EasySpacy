@@ -1,0 +1,13 @@
+.search__result{
+  max-width: 65ch;
+  border-radius: 25px;
+  background-color: $extra-light-blue;
+  margin-top: 2rem;
+  padding: 1rem 2rem 2rem;
+  color: $blue-gray;
+  font-weight: 200;
+  line-height: 1.25;
+  & a {
+    color: $dark-blue;
+  }
+}

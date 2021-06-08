@@ -1,0 +1,41 @@
+.search{
+  &__title{
+    & span{
+      font-style: italic;
+      font-weight: 500;
+    }
+  }
+  &__page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    & .contact__wysiwyg{
+      margin-top: 2rem;
+    }
+    & .searchform div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      & input[type=text]{
+        font-size: $_18;
+        padding: 1rem 2rem;
+        transition: all 0.35s ease;
+        border-radius: 35px;
+        border: 1px solid $blue-gray;
+        &:hover, &:focus{
+          box-shadow: 6px 6px 0 0 $es_orange;
+        }
+      }
+      & input[type=image]{
+        transition: all 0.35s ease;
+        margin-left: -4rem;
+        padding: 1rem;
+      }
+    }
+  }
+}
+.not-found{
+  font-weight: 600;
+  font-style: italic;
+}

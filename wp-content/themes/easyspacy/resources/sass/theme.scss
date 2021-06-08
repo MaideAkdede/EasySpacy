@@ -11,8 +11,13 @@
 @import "parts/general";
 @import "parts/menu-mobile";
 @import "parts/progress-bar";
-@import "parts/search-bar";
 
 @import "parts/contact-header";
 @import "parts/contact-content";
 @import "parts/contact-form";
+
+@import "parts/search-bar";
+@import "parts/search-nothing";
+@import "parts/search-results";
+
+@import "parts/page-not-found";

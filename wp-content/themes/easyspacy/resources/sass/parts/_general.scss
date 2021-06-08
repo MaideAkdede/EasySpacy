@@ -22,3 +22,20 @@ h3{
   font-weight: 600;
   margin: 1rem 0;
 }
+.cta{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin: 1rem auto 0;
+  padding: 1rem 1.5rem;
+  background-color: $blue-gray;
+  border-radius: 25px;
+  font-family: $open-sans;
+  transition: all 0.35s ease;
+  &:hover, &:focus{
+    background-color: $dark-blue;
+    cursor: pointer;
+    box-shadow: 6px 6px 0 0 $es_orange;
+  }
+}

@@ -1,0 +1,19 @@
+.error{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & .contact__wysiwyg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  & .contact{
+    &__avatars{
+      bottom: -125px;
+    }
+    &__bulle{
+      bottom: -35px;
+    }
+  }
+}
