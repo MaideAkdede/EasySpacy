@@ -1,0 +1,19 @@
+.cta{
+  display: block;
+  width: fit-content;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  background-color: $blue-gray;
+  border-radius: 25px;
+  font-family: $open-sans;
+  font-weight: 500;
+  transition: all 0.35s ease;
+  &:hover, &:focus{
+    background-color: $dark-blue;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 0 $es_orange;
+  }
+}

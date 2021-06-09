@@ -1,7 +1,8 @@
-.header{
+.header {
   max-width: 100vw;
   z-index: 2;
-  &__container{
+
+  &__container {
     display: flex;
     background-color: $extra-light-blue;
     align-items: center;
@@ -9,7 +10,7 @@
     flex-wrap: wrap;
   }
 
-  &__menu{
+  &__menu {
     position: fixed;
     height: 100vh;
     width: 100vw;
@@ -23,13 +24,15 @@
     align-self: flex-start;
     align-items: center;
   }
-  &__mobile{
+
+  &__mobile {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
   }
-  & .menu__close{
+
+  & .menu__close {
     position: fixed;
     top: 0;
     right: 0;
@@ -38,11 +41,12 @@
     border-radius: 50%;
     transition: all 0.5s ease-in-out;
 
-    &:focus, &:hover{
+    &:focus, &:hover {
       background-color: $es_orange;
     }
   }
-  &__fixed{
+
+  &__fixed {
     position: fixed;
   }
 }

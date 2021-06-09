@@ -1,0 +1,74 @@
+.comments__form{
+  margin: 2rem auto;
+  color: $dark-blue;
+  font-family: $open-sans;
+  & p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  & label{
+    background-color: white;
+    display: block;
+    width: max-content;
+    margin-bottom: -1rem;
+    margin-left: 2rem;
+    padding: 0 0.25rem;
+    z-index: 1;
+  }
+  & input, & textarea{
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-left: -1rem;
+    border-radius: 35px;
+    transition: all 0.35s ease;
+    border: 1px solid $blue-gray;
+
+    font-size: $_18;
+    &:focus, &:hover{
+      box-shadow: 6px 6px 0 0 $es_orange;
+    }
+  }
+  & textarea{
+    max-width: 90vw;
+  }
+  & .comment-form-cookies-consent{
+    margin: 0;
+    margin-bottom: -0.5rem;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: $_14;
+    font-weight: 200;
+    & label{
+      margin: 0 0 0 .5rem;
+
+    }
+    & span{
+      display: block;
+      margin: 0.5em auto;
+    }
+  }
+  & .submit {
+    display: block;
+    margin-left: auto;
+    font-size: $_16;
+    width: fit-content;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: $blue-gray;
+    border: none;
+    border-radius: 35px;
+    font-family: $open-sans;
+    font-weight: 500;
+    transition: all 0.35s ease;
+    &:hover, &:focus{
+      background-color: $dark-blue;
+      cursor: pointer;
+      box-shadow: 4px 4px 0 0 $es_orange;
+    }
+  }
+}

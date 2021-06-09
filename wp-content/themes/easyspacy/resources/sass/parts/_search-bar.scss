@@ -1,13 +1,15 @@
-.search{
+.search {
   position: relative;
   transform: translateY(-100vh);
   transition: all 0.5s ease-in-out;
   z-index: -1;
-  &__active{
+
+  &__active {
     transform: translateY(0);
     animation: smoothY 0.5s ease-in-out;
   }
-  & .searchform{
+
+  & .searchform {
     & div {
       display: flex;
       justify-content: center;
@@ -18,11 +20,13 @@
       padding: 0 1rem;
       margin: 0.36rem 0.24rem;
       transition: all 2s ease;
-      & input{
+
+      & input {
         padding: 0.5rem 1rem;
         z-index: 1;
       }
-      & input[type='text']{
+
+      & input[type='text'] {
         border: none;
         flex-grow: 1;
         font-size: $_18;
@@ -30,6 +34,7 @@
     }
   }
 }
+
 @keyframes smoothY {
   0% {
     transform: translateY(-25vh);

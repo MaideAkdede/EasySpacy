@@ -1,0 +1,19 @@
+.capsule{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+  &__images{
+    max-width: 750px;
+    min-width: 75vw;
+
+    display: flex;
+    overflow: hidden;
+  }
+  &__image{
+    width: 100%;
+  }
+}

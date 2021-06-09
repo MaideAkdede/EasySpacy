@@ -1,0 +1,27 @@
+.numbers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-numbers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: $_28;
+  height: $_28;
+  color: $dark-blue;
+  text-decoration: none;
+  margin: 0.32rem;
+  padding: 1rem;
+  border-radius: 50%;
+  &:focus, &:hover{
+    background-color: $es_orange;
+  }
+}
+.current {
+  background-color: $extra-light-blue;
+}
+.next{
+  font-size: $_32;
+  font-weight: 200;
+}

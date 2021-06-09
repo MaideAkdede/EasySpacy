@@ -1,0 +1,90 @@
+.capsule{
+  &__info{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em auto;
+    color: $blue-gray;
+    font-size: $_14;
+  }
+  &__wysiwyg{
+    line-height: 150%;
+    max-width: 65ch;
+    margin: 1rem auto 2rem;
+    color: $dark-blue;
+    text-align: left;
+    & h1{
+      font-size: $_28;
+      font-weight: 600;
+      margin-bottom: 1em;
+    }
+    & h2 {
+      font-size: $_22;
+      font-weight: 600;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      text-align: left;
+    }
+    & h3 {
+      font-size: $_20;
+      margin-top: 1em;
+      font-weight: 600;
+      margin-bottom: 1em;
+    }
+    & p{
+      margin-bottom: 1em;
+      margin-left: 2rem;
+    }
+    & a{
+      color: $blue-gray;
+      font-weight: 200;
+      &:focus, &:hover{
+        color: $dark-blue;
+        font-weight: 500;
+      }
+    }
+    & b {
+      font-weight: 600;
+    }
+    & i{
+      font-style: italic;
+    }
+    & ul , & ol{
+      margin-bottom: 2rem;
+    }
+    & ul > li{
+      list-style-type: circle;
+      margin-left: 2em;
+      margin-bottom: 0.25em;
+    }
+    & ol > li{
+      list-style-type: decimal;
+      margin-left: 2em;
+      margin-bottom: 0.25em;
+    }
+    & dl {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      & dt {
+
+      }
+      & dd{
+        font-weight: 200;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+      }
+    }
+    & blockquote{
+      border: 1px solid $blue-gray;
+      padding: 3rem;
+      margin: 1rem;
+      font-weight: 200;
+      & p{
+        margin: 0;
+      }
+    }
+    & pre {
+      color: $blue-gray;
+      margin: 2rem auto;
+    }
+  }
+}

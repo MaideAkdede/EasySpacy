@@ -1,0 +1,41 @@
+.media{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+&__wysiwyg{
+  line-height: 150%;
+  margin: 2rem 0;
+  max-width: 70ch;
+  padding: 2rem;
+  border-radius: 35px;
+  background-color: $extra-light-blue;
+  color: $dark-blue;
+  & p{
+    margin: 1rem 0 1rem;
+  }
+  & b{
+    font-weight: 600;
+  }
+  & i{
+    font-style: italic;
+  }
+  & ul, ol{
+    margin: 2rem 0;
+  }
+  & ul > li{
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+    list-style-type: circle;
+  }
+  & ol > li{
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+    list-style-type: decimal;
+
+  }
+  & a {
+    color: $blue-gray;
+  }
+}
+}

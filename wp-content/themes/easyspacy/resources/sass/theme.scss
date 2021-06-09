@@ -5,12 +5,15 @@
 @import "utilities/sizes";
 
 @import "parts/body";
+@import "parts/about";
 @import "parts/navigation";
 @import "parts/footer";
 @import "parts/footer-rocket";
 @import "parts/general";
 @import "parts/menu-mobile";
 @import "parts/progress-bar";
+@import "parts/cta";
+@import "parts/presse-media";
 
 @import "parts/contact-header";
 @import "parts/contact-content";
@@ -21,3 +24,13 @@
 @import "parts/search-results";
 
 @import "parts/page-not-found";
+@import "parts/page-number";
+
+@import "parts/home";
+@import "parts/home-header";
+@import "parts/home-capsules";
+
+@import "parts/capsule";
+@import "parts/capsule-wysiwyg";
+
+@import "parts/comment-form";
