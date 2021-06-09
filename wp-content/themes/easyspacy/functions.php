@@ -1,4 +1,14 @@
 <?php
+/* * * Return Page Not Found New Title * * */
+add_filter('wp_title', 'theme_slug_filter_wp_title');
+function theme_slug_filter_wp_title($title)
+{
+    if (is_404()) {
+        $title = 'Page Introuvable';
+    }
+    return $title;
+}
+
 /* * * Return Page Numbers * * */
 function numberPage($pageName)
 {
@@ -7,9 +17,10 @@ function numberPage($pageName)
         'format' => 'page/%#%',
         'current' => max(1, get_query_var('paged')),
         'total' => $pageName->max_num_pages,
-        'prev_text' => __('« prev'),
-        'next_text' => __('next »'),));
+        'prev_text' => __('<<'),
+        'next_text' => __('>>'),));
 }
+
 /* * * Return Menu Structure for Display * * */
 function es_bem($base, $modifiers = [])
 {
@@ -18,6 +29,7 @@ function es_bem($base, $modifiers = [])
     }, $modifiers);
     return implode(' ', $classes);
 }
+
 /* * * Return Menu Structure * * */
 function es_menu($location)
 {
@@ -39,9 +51,9 @@ function es_menu($location)
     }, $links);
     return $links;
 }
+
 /* * * Register navigation menus * * */
 add_action('init', 'es_custom_navigation_menus');
-
 function es_custom_navigation_menus()
 {
     register_nav_menus([

@@ -11,8 +11,8 @@ $research = $_GET['s'];
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             <?php $link = get_permalink(); ?>
             <div class="search__result">
-                <h3><a href="<?= $link ?>"><?php the_title(); ?></a></h3>
-                <div class="content__wysiwyg"><?= wp_trim_words(get_the_content(), 35, '... <a href="' . $link . '">Continuer à lire</a>'); ?></div>
+                <h3><a href="<?= $link ?>" alt="lire l‘article <?php the_title(); ?>"><?php the_title(); ?></a></h3>
+                <div class="content__wysiwyg"><?= wp_trim_words(get_the_content(), 35, '... <a title="Lire l‘article '. get_the_title() .'" class="cta search__cta" href="' . $link . '">Continuer à lire</a>'); ?></div>
             </div>
 
         <?php endwhile;

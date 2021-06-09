@@ -15,6 +15,13 @@
                          <?= $image['sizes']['large']; ?> 1024w">
                     <?php endif; endfor; ?>
             </div>
+            <div class="capsule__wysiwyg">
+                <div class="capsule__info">
+                    <p class="difficulty"><span>Difficulté : </span><?php the_field('difficulty'); ?></p>
+                    <p class="date"><?php the_date("d/m/Y"); ?></p>
+                </div>
+                <?php the_content(); ?>
+            </div>
         </div>
         <div class="capsule__comments comments">
             <div class="comments__form">

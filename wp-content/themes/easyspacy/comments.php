@@ -4,10 +4,11 @@ function custom_comment_form($fields) {
     $label_name = 'Nom *';
     $label_email = 'Adresse email *';
     $label_cookies = 'Enregistrer mon nom et adresse email pour une prochaine fois';
+    $label_warning = '(les champs * sont obligatoires et votre adresse mail ne sera pas divulguée)';
     /* Edit Label Names */
     $fields['author'] = '<p class="comment-form-author"><label for="author">'.$label_name.'</label> <input id="author" name="author" type="text" placeholder="Nom" value="" size="20"></p>';
     $fields['email'] = '<p class="comment-form-email"><label for="email">'.$label_email.'</label> <input id="email" name="email" type="text" placeholder="Adresse email" value="" size="30"></p>';
-    $fields['cookies'] = '<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">'.$label_cookies.'</label></p>';
+    $fields['cookies'] = '<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">'.$label_cookies.'<span>'.$label_warning.'</span></label></p>';
     /* Remove website field*/
     unset( $fields['url'] );
     /* Return Fields */
@@ -24,7 +25,7 @@ $form_arg = array(
     'title_reply' => '',
     'title_reply_to'=>'Répondre à %s',
     'comment_notes_before'=> '',
-    'comment_notes_after' => 'les champs * sont obligatoires, votre adresse mail ne sera pas divulguée',
+    'comment_notes_after' => '',
     'comment_field' => '<p class="comment-form-comment"><label for="comment">Commentaire *</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p>',
 );
 // Display Comments
