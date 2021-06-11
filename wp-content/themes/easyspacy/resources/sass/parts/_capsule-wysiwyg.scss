@@ -2,9 +2,15 @@
   &__info{
     display: flex;
     justify-content: space-between;
-    margin: 2em auto;
     color: $blue-gray;
     font-size: $_14;
+    flex-wrap: wrap;
+    & .difficulty, & .category, & .date {
+      margin: 0;
+    }
+    &:nth-child(2){
+      margin-bottom: 2rem;
+    }
   }
   &__wysiwyg{
     line-height: 150%;
@@ -83,8 +89,13 @@
       }
     }
     & pre {
-      color: $blue-gray;
-      margin: 2rem auto;
+      display: none;
     }
   }
+}
+@media screen and (max-width: 450px){
+  .capsule{
+    &__info{
+      flex-direction: column;
+    }}
 }

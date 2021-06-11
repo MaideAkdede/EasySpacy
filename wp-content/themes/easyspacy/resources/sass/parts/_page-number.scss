@@ -12,7 +12,7 @@
   color: $dark-blue;
   text-decoration: none;
   margin: 0.32rem;
-  padding: 1rem;
+  padding: 0.5em;
   border-radius: 50%;
   &:focus, &:hover{
     background-color: $es_orange;
@@ -22,6 +22,5 @@
   background-color: $extra-light-blue;
 }
 .next{
-  font-size: $_32;
-  font-weight: 200;
+  font-size: $_18;
 }

@@ -1,0 +1,54 @@
+@media screen and (min-width: 720px) and (orientation: landscape){
+  .menu__open, .menu__close{
+    display: none;
+  }
+  .header__mobile{
+    order: 1;
+    padding-right: 1rem;
+  }
+  .menu{
+    z-index: 1;
+    position: initial;
+    height: auto;
+    width: auto;
+    background-color: #E5F5FF;
+    transition: none;
+    transform: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+  }
+  .menu__link{
+    font-size: $_18;
+  }
+  .menu__ul{
+    display: flex;
+    flex-direction: row;
+  }
+  .menu .main-navigation__link_current:before{
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 0;
+    margin-left: 0;
+    margin-top: -0.6em;
+    height: 8px;
+    width: 100%;
+  }
+  .menu__link:focus:before, .menu__link:hover:before{
+    content: "";
+    transition: all 1s ease-in-out;
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-left: 0;
+    margin-top: -0.6em;
+    height: 8px;
+    width: 100%;
+    background-color: #003C62;
+  }
+}

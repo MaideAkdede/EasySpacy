@@ -3,17 +3,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
-  &__images{
-    max-width: 750px;
-    min-width: 75vw;
-
-    display: flex;
-    overflow: hidden;
+}
+.ig__link{
+  display: flex;
+  align-items: center;
+  & img{
+    margin-right: 0.4rem;
   }
-  &__image{
-    width: 100%;
+}
+@media screen and (max-width: 500px){
+  .capsule{
+    align-items: normal;
   }
 }

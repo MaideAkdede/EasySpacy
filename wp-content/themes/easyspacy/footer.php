@@ -1,5 +1,5 @@
 <footer class="footer">
-    <a href="" title="retourner en haut de la page" class="footer__svg--link">
+    <a title="retourner en haut de la page" class="footer__svg--link">
         <!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
         <svg class="footer__svg" version="1.0" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              x="0px" y="0px"

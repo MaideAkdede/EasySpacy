@@ -5,6 +5,7 @@
   }
   &__title{
     font-size: $_22;
+    font-style: italic;
   }
   &__avatars {
     display: flex;
@@ -60,15 +61,14 @@
       display: flex;
       justify-content: flex-end;
       position: relative;
-      z-index: -1;
     }
 
     &__title {
-      z-index: 2;
+      z-index: 4;
       margin-left: 12rem;
       text-align: left;
       margin-top: 2rem;
-      margin-bottom: -4rem;
+      margin-bottom: -2rem;
     }
 
     &__wysiwyg {

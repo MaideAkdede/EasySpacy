@@ -1,10 +1,12 @@
 <?php
-/* * * Return Page Not Found New Title * * */
+/* * * Return Page Title of : 404 and Search * * */
 add_filter('wp_title', 'theme_slug_filter_wp_title');
 function theme_slug_filter_wp_title($title)
 {
     if (is_404()) {
         $title = 'Page Introuvable';
+    } else if (is_search()) {
+        $title = 'Recherche';
     }
     return $title;
 }
@@ -83,10 +85,10 @@ function es_custom_post_type()
             'slug' => 'capsules'
         ]
     ]);
-    register_post_type('news', [
+    register_post_type('new', [
         'label' => 'News',
         'labels' => [
-            'singular_name' => 'One News',
+            'singular_name' => 'new',
             'add_new' => 'Ajouter une nouvelle News',
             'add_new_item' => 'Nouvelle News',
         ],
@@ -129,3 +131,6 @@ function disable_gutenberg_editor()
 {
     return false;
 }
+
+/* * * Langues des dates * * */
+setlocale(LC_TIME, "fr_BE");

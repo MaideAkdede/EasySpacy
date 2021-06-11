@@ -1,13 +1,22 @@
-.comments__form{
+
+.comments__form {
+  max-width: 700px;
+  & .comment-respond {
+    border-bottom: 2px solid $blue-gray;
+    min-width: 100px;
+  }
+
   margin: 2rem auto;
   color: $dark-blue;
   font-family: $open-sans;
-  & p{
+
+  & p {
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
   }
-  & label{
+
+  & label {
     background-color: white;
     display: block;
     width: max-content;
@@ -16,7 +25,8 @@
     padding: 0 0.25rem;
     z-index: 1;
   }
-  & input, & textarea{
+
+  & input, & textarea {
     padding: 1rem 2rem;
     margin-bottom: 1rem;
     margin-top: 0.5rem;
@@ -26,29 +36,35 @@
     border: 1px solid $blue-gray;
 
     font-size: $_18;
-    &:focus, &:hover{
+
+    &:focus, &:hover {
       box-shadow: 6px 6px 0 0 $es_orange;
     }
   }
-  & textarea{
+
+  & textarea {
     max-width: 90vw;
   }
-  & .comment-form-cookies-consent{
+
+  & .comment-form-cookies-consent {
     margin: 0;
     margin-bottom: -0.5rem;
     flex-direction: row;
     align-items: flex-start;
     font-size: $_14;
     font-weight: 200;
-    & label{
+
+    & label {
       margin: 0 0 0 .5rem;
 
     }
-    & span{
+
+    & span {
       display: block;
       margin: 0.5em auto;
     }
   }
+
   & .submit {
     display: block;
     margin-left: auto;
@@ -65,10 +81,15 @@
     font-family: $open-sans;
     font-weight: 500;
     transition: all 0.35s ease;
-    &:hover, &:focus{
+
+    &:hover, &:focus {
       background-color: $dark-blue;
       cursor: pointer;
       box-shadow: 4px 4px 0 0 $es_orange;
     }
   }
+}
+.comment-form{
+  overflow: hidden;
+  padding: 0 1rem;
 }

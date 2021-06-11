@@ -17,8 +17,9 @@ $border_radius: 10px;
   &__definition {
     max-width: 75ch;
     color: $blue-gray;
-    margin: 2rem 0;
+    margin: 1rem 0 2rem;
     line-height: 125%;
+    font-weight: 200;
   }
 
   &__wrapper {

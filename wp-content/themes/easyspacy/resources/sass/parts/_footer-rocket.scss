@@ -7,6 +7,12 @@
 
     &:focus, &:hover {
       background-color: $es_orange;
+      cursor: pointer;
+      & .footer__svg{
+        transform: rotate(0);
+
+        animation: rot 2s linear infinite;
+      }
     }
   }
 

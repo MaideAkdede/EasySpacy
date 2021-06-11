@@ -1,0 +1,39 @@
+.slider {
+  &__numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $_12;
+    padding: 0.5em;
+    height: 1em;
+    width: 1em;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: $extra-light-blue;
+    color: $dark-blue;
+    margin: 0.5rem 0.25rem;
+  }
+}
+.slider__icon {
+  width: 30px;
+  height: auto;
+  margin: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  right: calc(50% - 36px);
+  animation: slideIcon 2s ease-out alternate 10;
+}
+@keyframes slideIcon {
+  from{
+    right: calc(50% - 36px);
+  }
+  100%{
+    right: calc(50%);
+  }
+}

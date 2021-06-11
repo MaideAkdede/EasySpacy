@@ -1,0 +1,31 @@
+.comment{
+  position: relative;
+  max-width: 700px;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  background-color: $extra-light-blue;
+  margin-bottom: 1rem;
+  &__empty{
+    text-align: center;
+    margin-bottom: 0 !important;
+  }
+  &__header{
+    font-weight: 200;
+    font-size: $_14;
+
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content{
+    padding: 0 2rem;
+  }
+}
+.comment_number{
+  margin-left: 0.5em;
+  display: inline-block;
+  font-weight: 500;
+  background-color: $extra-light-blue;
+  border-radius: 50%;
+  padding: 0.2em;
+  width: 1em;
+}
