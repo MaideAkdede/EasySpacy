@@ -51,6 +51,51 @@
         <p class="end_copyright">© Easy Spacy &bull; Sarah Joiret & Léo Cotteleer &bull; 2021-<?= date("Y");?></p>
     </div>
 </footer>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://easyspacy.maide-ak.me/",
+        "name": "EasySpacy SubDomain",
+        "inLanguage": "fr-BE>",
+        "description": "Site de vulgarisation scientifique",
+        "publisher": {
+            "@type": "ProfilePage",
+            "name": [
+                "Sarah Joiret",
+                "Leo Cotteleer"
+            ]
+        }
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sarah Joiret",
+        "birthPlace": "Belgique",
+        "gender": "femme",
+        "nationality": "Belge",
+        "url": "https://www.instagram.com/sarahjoiret/",
+        "sameAs" : [
+            "https://www.instagram.com/easyspacy/"
+        ]
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Léo Cotteleer",
+        "birthPlace": "Belgique",
+        "gender": "homme",
+        "nationality": "Belge",
+        "url": "https://www.instagram.com/leocotteleer/",
+        "sameAs" : [
+            "https://www.instagram.com/easyspacy/"
+        ]
+    }
+</script>
 <?php wp_footer(); ?>
 </body>
 </html>

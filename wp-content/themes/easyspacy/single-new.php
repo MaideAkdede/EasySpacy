@@ -25,6 +25,41 @@
                 <?php comments_template(); ?>
             </div>
         </div>
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "NewsArticle",
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "<?= get_permalink(); ?>>"
+                },
+                "headline": "<?= get_the_title(); ?>",
+                "datePublished": "<?= get_the_date(); ?>",
+                "dateModified": "<?= get_the_modified_date(); ?>",
+                "description": "<?= wp_strip_all_tags(get_the_content()); ?>",
+                "image": [
+                        "<?= get_field('news-image')['src'] ?>"
+                ],
+                "author": {
+                    "@type": "Person",
+                    "name": [
+                        "Sarah Joiret",
+                        "Léo Cotteleer",
+                        "EasySpacy"
+                    ]
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "EasySpacy",
+                    "url": "<?php site_url(); ?>",
+                    "logo": {
+                      "@type": "ImageObject",
+                      "url": "<?= get_template_directory_uri() . '/resources/favicon/easyspacy-300.png' ;?>"
+                    }
+                }
+            }
+        </script>
     </main>
 <?php endwhile; endif; ?>
 <?php get_footer(); ?>
